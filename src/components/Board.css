@@ -1,0 +1,11 @@
+.board{
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0,0.25);
+    padding: 1rem;
+    background-color: #2f2f2f;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    height: 50rem ;
+    max-height: 95%;
+}

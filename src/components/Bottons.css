@@ -1,11 +1,11 @@
-.card{
+.bottons{
     border-radius: 12px;
     box-shadow: 0 1px 8px rgba(0, 0, 0,0.25);
     padding: 1rem;
-    background-color: #363636;
+    background-color: #00858f;
     margin: 2rem auto;
-    width: 50rem;
+    width: 15rem;
     max-width: 95%;
-    height: 50rem ;
+    height: 15rem ;
     max-height: 95%;
 }

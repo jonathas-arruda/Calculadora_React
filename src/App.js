@@ -1,14 +1,22 @@
-import './App.css';
-import Card from './components/UI/Card'
+import "./App.css";
+import Board from "./components/Board";
 
 const App = () => {
   return (
-    <Card Classname=''>
+    <Board className="board">
       <div className="App">
         <h2>Start</h2>
+        <h2>Start</h2>
+        <h2>Start</h2>
+        <h2>Start</h2>
+        <h2>Start</h2>
+        <h2>Start</h2>
+        <h2>Start</h2>
+        <h2>Start</h2>
+        <h2>Start</h2>
       </div>
-    </Card>
+    </Board>
   );
-}
+};
 
 export default App;

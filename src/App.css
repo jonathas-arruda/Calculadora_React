@@ -23,7 +23,8 @@ body{
   border: 10px solid #303030;
   background: #303030;
   border-radius: 10px;
-  box-shadow: black 30px ;
+  box-shadow: 0 30px 46px rgba(0, 0, 0,0.2);
+
 }
 
 .keypad{
@@ -58,7 +59,7 @@ input[type= "text"]{
 #result{
   grid-column: 3/5;
   grid-row: 5;
-  border: ;
+  border: 0px ;
   color: beige;
   background-color:#FFC301;
 }
@@ -66,4 +67,13 @@ button{
   margin: 5px;
   border: none;
   border-radius: 10px;
+  background: #6e6e6e;
+  color: beige;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active{
+  outline:none 
 }

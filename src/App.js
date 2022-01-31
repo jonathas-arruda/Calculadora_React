@@ -8,13 +8,23 @@ const App = () => {
     setResult('');
   }
   const backspace =() => {
+    setResult(result.slice(0,result.length -1))
 
+  }
+
+  const calculate = () => {
+    try {
+      setResult(eval(result).toString());
+      
+    } catch (err) {
+      setResult("Error")
+    }
   }
 
   const handleClick = (event) =>{
     setResult (result.concat(event.target.name));
   }
-  //visualizar o evento para entender o wrap do target.nome
+ 
   return (
     <div>
       <div className="container">
@@ -39,7 +49,7 @@ const App = () => {
           <button id="operador" name="+" onClick={handleClick}>+</button>
           <button name="0" onClick={handleClick}>0</button>
           <button name="." onClick={handleClick}>.</button>
-          <button onClick={handleClick} id="result">=</button>
+          <button onClick={calculate} id="result">=</button>
         </div>
       </div>
     </div>

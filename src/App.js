@@ -29,7 +29,7 @@ const App = () => {
     <div>
       <div className="container">
         <form>
-          <input type="text" value={result} />
+          <input type="text" value={result} readOnly/>
         </form>
         <div className="keypad">
           <button onClick={clear} id="clear">Clear</button>
